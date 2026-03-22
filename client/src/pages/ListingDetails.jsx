@@ -36,7 +36,7 @@ const ListingDetails = () => {
 
   useEffect(() => {
     getListingDetails();
-  }, []);
+  }, [getListingDetails]);
 
   console.log(listing)
 

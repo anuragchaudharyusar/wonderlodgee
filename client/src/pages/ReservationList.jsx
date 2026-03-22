@@ -33,7 +33,7 @@ const ReservationList = () => {
 
   useEffect(() => {
     getReservationList();
-  }, []);
+  }, [getReservationList]);
 
   return loading ? (
     <Loader />
